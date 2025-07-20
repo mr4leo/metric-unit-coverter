@@ -10,13 +10,13 @@
 }
 
 @media (max-width: 4000px) {
-  body {
+  main-contain {
     transform: scale(0.8);
   }
 }
 
 @media (max-width: 400px) {
-  body {
+  main-contain {
     transform: scale(0.75);
   }
 }
