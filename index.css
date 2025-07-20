@@ -9,7 +9,7 @@
     --dark: #281a61;
 }
 
-@media (max-width: 5000px) {
+@media (max-width: 20000px) {
   .body {
     transform: scale(0.75);
   }
