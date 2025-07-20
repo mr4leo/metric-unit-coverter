@@ -209,14 +209,8 @@ input::placeholder {
 }
 
 
-/* @media (max-width: 1920px) {
-  .main-contain {
-    transform: scale(0.8);
-  }
-} */
-
 /* For phones */
-@media (max-width: 450px) {
+@media (max-width: 500px) {
   .scale-wrapper {
     transform: scale(0.75);
   }
