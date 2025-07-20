@@ -28,6 +28,7 @@ body {
 }
 
 .main-contain {
+    margin: -3rem;
     width: 44rem;
     min-width: 40rem;;
     height: 66rem;
@@ -35,7 +36,6 @@ body {
     overflow: hidden;
     box-shadow: 0 3rem 3rem rgba(0,0,0,.15);
     transform: scale(.8);
-    transform-origin: center center;
     transition: all 0.5s ease;
     /* animation: swell .5s linear infinite alternate;  */
 }
@@ -207,13 +207,13 @@ input::placeholder {
 
 @keyframes swell {
     0%{
-        transform: scale(1);
+        transform: scale(.8);
     }
     50%{
-        transform: scale(1.1);
+        transform: scale(.85);
     }
     100%{
-        transform: scale(1);
+        transform: scale(.8);
     }
 }
 
