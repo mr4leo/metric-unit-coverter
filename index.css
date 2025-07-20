@@ -10,7 +10,7 @@
 }
 
 @media (max-width: 20000px) {
-  .body {
+  body {
     transform: scale(0.75);
   }
 }
