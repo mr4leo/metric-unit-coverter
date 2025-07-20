@@ -9,6 +9,12 @@
     --dark: #281a61;
 }
 
+@media (max-width: 4000px) {
+  body {
+    transform: scale(0.8);
+  }
+}
+
 @media (max-width: 400px) {
   body {
     transform: scale(0.75);
