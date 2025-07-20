@@ -20,6 +20,9 @@ body {
 }
 
 .main-contain {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
     width: 44rem;
     border-radius: 2rem;
     overflow: hidden;
