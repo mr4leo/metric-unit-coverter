@@ -27,6 +27,10 @@ convertBtn.addEventListener("click", function() {
     lengthConverter()
     volumeConverter()
     massConverter()
+    let mainContain = document.querySelector(".main-contain")
+    mainContain.classList.remove("main-contain-animated")
+    void mainContain.offsetWidth; // Force reflow to restart the animation
+    mainContain.classList.add("main-contain-animated")
 })
 
 inputEl.addEventListener("keydown", function(event) {
@@ -59,3 +63,20 @@ function lengthConverter(){
     console.log("Btn clicked")
     console.log(massConversionEl.innerHTML)
     }
+
+
+
+let idleToggle = true
+const root = document.documentElement
+let toggleBtn = document.querySelector(".knob")
+    toggleBtn.addEventListener("click", function() {
+    console.log("Toggle Pressed")
+        if(idleToggle === true){
+        toggleBtn.classList.add("knob-state2")
+        root.style.setProperty('--purp', 'var(--dark)')
+        idleToggle = false
+        } else {toggleBtn.classList.remove("knob-state2")
+            root.style.setProperty('--purp', '#6943FF')
+            idleToggle = true
+        }
+})
