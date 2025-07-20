@@ -9,7 +9,7 @@
     --dark: #281a61;
 }
 
-@media (max-width: 20000px) {
+@media (max-width: 400px) {
   body {
     transform: scale(0.75);
   }
@@ -22,7 +22,7 @@ body {
     height: 100vh;
     background-color: var(--purp);
     transition: all .5s ease;
-    transform: scale(.8)
+    /* transform: scale(.8) */
 }
 
 .main-contain {
