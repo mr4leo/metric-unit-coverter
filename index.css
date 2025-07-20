@@ -29,6 +29,7 @@ body {
 
 .main-contain {
     width: 44rem;
+    min-width: 40rem;;
     height: 66rem;
     border-radius: 2rem;
     overflow: hidden;
