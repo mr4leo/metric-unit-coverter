@@ -210,10 +210,12 @@ input::placeholder {
 /* For phones */
 @media (max-width: 500px) {
 .conversion-container {
-    /* background-color: white; */
     padding: 1rem 2rem 1rem 2rem;
-    /* border-radius: 1rem;
-    box-shadow: 0 3rem 3rem rgba(0,0,0,.15); */
+    width: 80%;
+}
+
+.main-contain {
+margin-top: -3rem;
 }
 
 }
