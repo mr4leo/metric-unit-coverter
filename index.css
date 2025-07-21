@@ -208,10 +208,14 @@ input::placeholder {
 }
 
 
-For phones
+/* For phones */
 @media (max-width: 500px) {
+body{
+    padding: 0;
+}
 .main-contain {
 margin-top: -6rem;
+width:100%
 }
 .lower-container {
     padding: 2rem 3rem 2rem 3rem;
