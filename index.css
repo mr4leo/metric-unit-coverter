@@ -209,13 +209,13 @@ input::placeholder {
 
 /* For phones */
 @media (max-width: 500px) {
+.main-contain {
+margin-top: -1rem;
+}
+.lower-container {
+    padding: 2rem 3rem 2rem 3rem;
+}
 .conversion-container {
     padding: 1rem 2rem 1rem 2rem;
-    width: 80%;
 }
-
-.main-contain {
-margin-top: -3rem;
-}
-
 }
